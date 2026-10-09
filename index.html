@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vận tải Hoàng Anh NB – Vận tải container Ninh Bình</title>
+<meta name="description" content="Công ty TNHH Dịch vụ Vận tải Hoàng Anh NB – vận tải container bằng xe đầu kéo, trụ sở Ninh Bình.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Be+Vietnam+Pro:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#14304A; --steel:#24496B; --signal:#F2B705;
+    --concrete:#E7E9EB; --ink:#1A1F24; --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+  h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;line-height:1.05}
+  a{color:inherit}
+  a:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+
+  /* Hero: the side wall of a container */
+  .hero{
+    position:relative;color:var(--white);padding:clamp(4rem,10vw,8rem) 1.5rem clamp(3rem,8vw,6rem);
+    background:
+      repeating-linear-gradient(90deg,
+        rgba(255,255,255,.07) 0 14px, rgba(0,0,0,.18) 14px 18px,
+        rgba(255,255,255,.03) 18px 40px, rgba(0,0,0,.12) 40px 44px),
+      var(--steel);
+    border-bottom:10px solid var(--signal);
+  }
+  .wrap{max-width:68rem;margin:0 auto}
+  .plate{
+    display:inline-block;font-family:"Barlow Condensed",sans-serif;font-weight:600;
+    font-size:.95rem;letter-spacing:.04em;background:var(--white);color:var(--navy);
+    padding:.2rem .6rem;border:2px solid var(--navy);margin-bottom:1.5rem
+  }
+  .hero h1{font-weight:800;font-size:clamp(3rem,10vw,7.5rem);max-width:12ch}
+  .hero p{margin-top:1.25rem;font-size:1.15rem;max-width:42ch;opacity:.92}
+  .cta{
+    display:inline-block;margin-top:2rem;background:var(--signal);color:var(--navy);
+    font-weight:600;text-decoration:none;padding:.8rem 1.4rem
+  }
+
+  section{padding:4.5rem 1.5rem}
+  h2{font-size:clamp(2rem,5vw,3rem);color:var(--navy);margin-bottom:1.5rem}
+  .lead{max-width:60ch;font-size:1.05rem}
+
+  .services{background:var(--concrete)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2rem;margin-top:2rem}
+  .item{border-left:4px solid var(--navy);padding-left:1rem}
+  .item h3{font-size:1.6rem;color:var(--navy);margin-bottom:.4rem}
+
+  .contact{background:var(--navy);color:var(--white)}
+  .contact h2{color:var(--white)}
+  dl{display:grid;grid-template-columns:max-content 1fr;gap:.6rem 1.5rem;margin-top:1rem;max-width:44rem}
+  dt{font-weight:600;color:var(--signal)}
+  .todo{background:rgba(242,183,5,.18);padding:0 .3rem}
+
+  footer{padding:1.5rem;font-size:.85rem;text-align:center;color:#5b6570}
+  @media (max-width:520px){dl{grid-template-columns:1fr}dt{margin-top:.6rem}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="plate">Hoàng Anh NB</span>
+    <h1>Vận tải container đường bộ</h1>
+    <p>Công ty TNHH Dịch vụ Vận tải Hoàng Anh NB vận chuyển container bằng đội xe đầu kéo, trụ sở tại Ninh Bình.</p>
+    <a class="cta" href="#lien-he">Liên hệ đặt xe</a>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>Về chúng tôi</h2>
+      <p class="lead">Chúng tôi vận hành đội xe đầu kéo gồm xe của công ty và xe hợp tác, nhận chở container cho chủ hàng theo từng chuyến. Mỗi chuyến đều được ghi nhận số hiệu container, hóa đơn và chi phí rõ ràng để khách hàng và chủ xe đối chiếu dễ dàng.</p>
+      <p class="lead" style="margin-top:1rem;color:#5b6570" lang="en">Hoang Anh NB Transport Service Co., Ltd – container trucking company based in Ninh Binh, Vietnam.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="wrap">
+      <h2>Dịch vụ</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Chở container</h3>
+          <p>Vận chuyển container giữa cảng, kho bãi và nhà máy bằng xe đầu kéo.</p>
+        </div>
+        <div class="item">
+          <h3>Hợp tác xe gửi</h3>
+          <p>Nhận xe đầu kéo của chủ xe vào khai thác, thu cước và giải ngân minh bạch theo từng chuyến.</p>
+        </div>
+        <div class="item">
+          <h3>Theo dõi chuyến hàng</h3>
+          <p>Ghi nhận số hiệu chuyến, hóa đơn và công nợ cho từng khách hàng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="lien-he">
+    <div class="wrap">
+      <h2>Liên hệ</h2>
+      <dl>
+        <dt>Công ty</dt><dd>Công ty TNHH Dịch vụ Vận tải Hoàng Anh NB</dd>
+        <dt>Địa chỉ</dt><dd>Tam Điệp, Ninh Bình</dd>
+        <dt>Điện thoại</dt><dd><span class="todo">[Số điện thoại – cần bổ sung]</span></dd>
+        <dt>Email</dt><dd><a href="mailto:vantaihoanganh@hoanganhnb.click">vantaihoanganh@hoanganhnb.click</a></dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>© Công ty TNHH Dịch vụ Vận tải Hoàng Anh NB</footer>
+</body>
+</html>
